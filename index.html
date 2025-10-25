@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Deluxe Stream Hideout</title>
+  <title>The Deluxe Camera Website</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -16,6 +16,16 @@
       font-size: 2.5em;
       margin-bottom: 0.5em;
     }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+    }
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
     a {
       display: inline-block;
       background: #ff0077;
@@ -24,16 +34,24 @@
       border-radius: 6px;
       text-decoration: none;
       font-weight: bold;
-      transition: background 0.3s;
+      transition: background 0.3s, transform 0.2s;
+      min-width: 160px;
     }
     a:hover {
       background: #ff3399;
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to The Deluxe Stream Hideout 🎬</h1>
-  <p>Click below to enter the stream page.</p>
-  <a href="seebeees.html">Go to Stream</a>
+  <h1>Welcome to The Deluxe Camera Website</h1>
+  <p>Select a stream below to view:</p>
+  <div class="button-container">
+    <a href="seebeees.html">Camera 1</a>
+    <a href="seebeees2.html">Camera 2</a>
+    <a href="seebeees3.html">Camera 3</a>
+    <a href="seebeees4.html">Camera 4</a>
+    <a href="seebeees5.html">Camera 5</a>
+  </div>
 </body>
 </html>
